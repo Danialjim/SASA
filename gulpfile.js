@@ -10,7 +10,7 @@ gulp.task('fileindex', function(){
 
 gulp.task('zipper', function(){
 	return gulp.src('Servicio_Prueba/*')
-		.pipe(zip(filename: 'clientes.zip'))
+		.pipe(zip('clientes.zip'))
 		.pipe(gulp.dest('dist'));
 });
 
