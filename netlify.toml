@@ -1,3 +1,2 @@
 [build]
-Command = "npm install gulp"
-Command = "gulp"
+Command = "npm install gulp; gulp;"
