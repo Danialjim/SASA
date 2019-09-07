@@ -1,2 +1,2 @@
 [build]
-Command = "npm install gulp, gulp"
+Command = "npm install gulp; npm install --save-dev gulp-zip; npm install gulp-fileindex --save-dev; npm install gulp-util --save-dev; gulp;"
